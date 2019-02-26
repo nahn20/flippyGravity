@@ -6,13 +6,14 @@
         <script src="javascript/main.js"></script>
         <script src="javascript/camera.js"></script>
         <script src="javascript/player.js"></script>
+        <script src="javascript/obstacle.js"></script>
         <style>
             canvas{
                 background: aliceblue;
             }
         </style>
     </head>
-    <body onload="startGame(1, [1200, 600])">
+    <body onload="startGame(4, [32, 81, 84, 73], ['Obnoxiously Long Name', '2', '3', '4'], ['Pink', 'Red', 'Black', 'Blue'], ['No', 'Yes', 'No', 'No'], [['on', 'on', 'on'], ['on', 'on', 'on'], ['on', 'on', 'on'], ['on', 'on', 'on']], ['Pink', 'Red', 'Black', 'Blue'], [1200, 600])">
         <canvas width=1200 height=600 id="canvas"></canvas>
     </body>
 </html>
